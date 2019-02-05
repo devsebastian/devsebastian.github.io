@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Cinzel');
+
+#header-text{
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	font-family: 'Cinzel', serif;
+	font-size: 70px;
+}
+
+#sub-header-text{
+	left: 0%;
+	font-family: 'Segoe UI Light', serif;
+	font-size: 20px;
+}
