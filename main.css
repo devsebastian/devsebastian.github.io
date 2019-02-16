@@ -1,15 +1,68 @@
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Libre+Barcode+39+Text|Permanent+Marker|Staatliches');
 
-#header-text{
-	position: absolute;
-	top: 40%;
-	left: 10%;
-	font-family: 'Cinzel', serif;
-	font-size: 70px;
+*{
+	padding: 0px;
+	margin: 0px;
 }
 
-#sub-header-text{
-	left: 0%;
-	font-family: 'Segoe UI Light', serif;
-	font-size: 20px;
+
+.clr{
+	clear: both;
+}
+
+#page_1{
+	height: 100%;
+	width: 100%;
+}
+
+.title-text{
+	width: 60%;
+	color: #1b2338;
+	position: absolute;
+	bottom: 40%;
+	left: 10%;
+	line-height: 0.9em;
+	font-family: "Abril Fatface";
+	font-size: 6em;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #ea1e62;
+}
+
+
+.title-text small{
+	color: #aeaeae;
+	font-size: 0.3em;
+	line-height: 0.1em;
+}
+.header{
+	margin: 0px;
+	width: 100%;
+}
+
+.header-text{
+	font-family: Segoe UI;
+	font-weight: 600;
+	padding-left: 12px;
+	padding-top: 12px;
+
+}
+
+.header ul{
+	width: 50%;
+	position: absolute;
+	list-style: none;
+	text-align: right;
+	font-weight: 600;
+	right: 0px;
+	top: 12px;
+}
+
+.header li{
+	padding-right: 2%;
+	display: inline-block;
+	transition: all 0.4s ease;
+}
+
+.header li:hover{
+	color: #ea1e62;
 }
