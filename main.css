@@ -1,6 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,600,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,900&display=swap');
 *{margin:0px; padding: 0px; box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 }
@@ -39,7 +38,7 @@ header{
 	top: 0px;
 	padding: 1%;
 	font-size: 24px;
-	font-weight: 900;
+	font-weight: 800;
 	font-family: 'Open sans', sans-serif;
 	position: absolute;
 }
